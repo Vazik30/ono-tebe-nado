@@ -291,14 +291,11 @@
   display: flex;
   flex-direction: column;
   list-style: none;
+  margin-right: -15px;
 }
 
 .footer_links_list_iteam {
   align-self: center;
-}
-
-.footer__social-list {
-  margin-right: -15px;
 }
 
 .footer__social-link {
