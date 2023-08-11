@@ -10,11 +10,11 @@
   font-size: 18px;
 }
 
-.header_menu{
+.header_menu {
   margin-right: 177px;
 }
 
-.header_links_list{
+.header_links_list {
   display: flex;
 }
 
@@ -56,7 +56,7 @@
   text-transform: uppercase;
 }
 
-.overlay{
+.overlay {
   position: absolute;
   opacity: 0.6;
   background: #000;
@@ -86,7 +86,7 @@
   letter-spacing: 30px;
 }
 
-.aligned-text_left{
+.aligned-text_left {
   word-spacing: -20px;
 }
 
@@ -115,7 +115,7 @@
   margin-right: 78px;
 }
 
-.bet_button{
+.bet_button {
   padding: 12px 32px;
   text-transform: uppercase;
   background: transparent;
@@ -148,7 +148,7 @@
   color: #fff;
 }
 
-.lots__card-list-item{
+.lots__card-list-item {
   list-style: none;
 }
 
@@ -283,4 +283,6 @@
 
 .footer__social-link {
   display: block;
+  width: 48px;
+  height: auto;
 }
