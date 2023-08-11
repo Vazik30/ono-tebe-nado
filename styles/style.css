@@ -38,6 +38,7 @@
   display: flex;
   flex-direction: column;
   align-content: center;
+  font-size: 18px;
 }
 
 .cover {
@@ -69,7 +70,7 @@
   z-index: 0;
 }
 
-.cover_title{
+.cover_title {
   display: flex;
   flex-direction: column;
   z-index: 2;
@@ -93,11 +94,22 @@
 .aligned-text_center {
   justify-content: center;
   word-spacing: -30px;
-  margin: 20px auto;
 }
 
 .aligned-text_right {
   justify-content: end;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.letter-spacing {
+  letter-spacing: 30px;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
 }
 
 .cover__description {
@@ -106,13 +118,13 @@
   padding-left: 50px;
   padding-right: 50px;
   margin-bottom: 50px;
-  margin-top: 115px;
+  margin-top: 130px;
   font-size: 22px;
 }
 
 .cover__description-text {
   word-spacing: 20px;
-  margin-right: 78px;
+  margin-right: 72px;
 }
 
 .bet_button {
@@ -130,7 +142,7 @@
   box-sizing: border-box;
   width: 1340px;
   height: 579px;
-  margin: 180px 50px;
+  margin: 170px 50px 180px;
   gap: 30px;
 }
 
@@ -263,6 +275,10 @@
   margin: 180px 50px 90px;
 }
 
+.footer_menu {
+  font-size: 18px;
+}
+
 .footer__social-list {
   display: flex;
   justify-content: space-between;
@@ -279,6 +295,10 @@
 
 .footer_links_list_iteam {
   align-self: center;
+}
+
+.footer__social-list {
+  margin-right: -15px;
 }
 
 .footer__social-link {
